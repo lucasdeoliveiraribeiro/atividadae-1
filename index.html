@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Meu Primeiro Site</title>
+  <style>
+    body {
+      font-family: Georgia, serif;
+      max-width: 600px;
+      margin: 40px auto;
+      padding: 0 16px;
+      line-height: 1.6;
+      color: #222;
+      background: #fafafa;
+    }
+    h1 { color: #2a6f4f; }
+    ul { padding-left: 20px; }
+    button {
+      padding: 8px 16px;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h1>Meu Primeiro Site</h1>
+  <p>Olá! Esta é uma página HTML bem simples para uma atividade.</p>
+
+  <h2>Minhas frutas favoritas</h2>
+  <ul>
+    <li>Manga</li>
+    <li>Morango</li>
+    <li>Uva</li>
+  </ul>
+
+  <button onclick="document.getElementById('msg').textContent = 'Você clicou no botão!'">
+    Clique aqui
+  </button>
+  <p id="msg"></p>
+</body>
+</html>
